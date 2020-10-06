@@ -7,20 +7,21 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Reservas MI NEGOCIO</title>
+    <title>DGR - FORMOSA</title>
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
     <form action="" class="formulario">
-      <img src="logo.jpg" class="imgLogo" />
+      <img src="logo_rentas - copia.jpg" class="imgLogo" />
 
-      <h1 class="formulario__titulo">MI NEGOCIO</h1>
-      <h3 class="formulario__subtitulo">Reservas</h3>
+      <h1 class="formulario__titulo">ATENCION NO PRESENCIAL</h1>
+      <h3 class="formulario__subtitulo">Consultas y Trámites</h3>
       <p class="formulario__parrafo">
-        Llena este pequeño formulario para agendar tu cita en MI NEGOCIO.
+        Llena este pequeño formulario para iniciar tu gestión.
       </p>
 
-      <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+      <label for="cliente" class="formulario__label"
+      >¿Cuál es tu nombre y apellido?</label>
       <input
         id="cliente"
         type="text"
@@ -28,39 +29,33 @@
         placeholder="Indica cuál es tu nombre completo"
       />
 
-      <label for="fecha" class="formulario__label"
-        >Indica la fecha de tu reserva</label
+      <label for="N° de celular" class="formulario__label"
+        >Ingresá tu N° de celular</label
       >
       <input
-        id="fecha"
-        type="date"
+        id="N° de celular"
+        type="number"
         class="formulario__input"
-        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+        placeholder="El que utilizas para la consulta"
       />
-
-      <label for="hora" class="formulario__label"
-        >Indica la hora de tu reserva</label
+      
+      <label for="carácter" class="formulario__label"
+        >La consulta, la efectúas en carácter de:</label
       >
-      <input id="hora" type="time" class="formulario__input" />
-
-      <label for="empleado" class="formulario__label"
-        >EMPLEADO de preferencia</label
-      >
-      <select id="empleado" name="listaempleados" class="formulario__input">
-        <option>EMPLEADO 1</option>
-        <option>EMPLEADO 2</option>
+      <select id="carácter" name="listacarácter" class="formulario__input">
+        <option>Titular</option>
+        <option>Mandatario</option>
       </select>
 
-      <label for="servicio" class="formulario__label"
-        >¿Cuál es el servicio que se desea realizar?</label
+      <label for="N° de CUIT" class="formulario__label"
+      >Ingresá el N° de CUIT</label
       >
-      <select id="servicio" name="listaservicios" class="formulario__input">
-        <option>SERVICIO 1 - $VALOR</option>
-        <option>SERVICIO 2 - $VALOR</option>
-        <option>SERVICIO 3 - $VALOR</option>
-        <option>SERVICIO 4 - $VALOR</option>
-        <option>SERVICIO 5 - $VALOR</option>
-      </select>
+      <input
+      id="N° de CUIT"
+      type="number"
+      class="formulario__input"
+      placeholder="Ingresá tu CUIT o el de tu representado"
+      />
 
       <div id="respuesta"></div>
 

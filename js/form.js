@@ -2,13 +2,12 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-  let telefono = "573105010573";
+  let telefono = "5493704404352";
 
-  let cliente = document.querySelector("#cliente").value;
-  let fecha = document.querySelector("#fecha").value;
-  let hora = document.querySelector("#hora").value;
-  let empleado = document.querySelector("#empleado").value;
-  let servicio = document.querySelector("#servicio").value;
+  let contribuyente = document.querySelector("#contribuyente").value;
+  let N° de celular = document.querySelector("#N° de celular").value;
+  let carácter = document.querySelector("#carácter").value;
+  let N° de CUIT = document.querySelector("#N° de CUIT").value;
   let resp = document.querySelector("#respuesta");
 
   resp.classList.remove("fail");
