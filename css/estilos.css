@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image: url(nike.jpg);
+  background-image: url(pexels.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
@@ -16,12 +16,12 @@ body {
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
   position: relative;
-  background: rgba(255, 255, 255, 0.70);
+  background: rgba(255, 255, 255, 0.77);
 }
 
 .imgLogo {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 150px;
   display: block;
   margin: auto;
@@ -41,7 +41,7 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 .formulario__parrafo {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
 }
 .formulario__input,
 .formulario__label {
@@ -53,14 +53,14 @@ body {
   padding: 10px;
   background: transparent;
   /* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.9);
   margin-bottom: 15px;
   border-radius: 10px;
 }
 .formulario__input:focus {
   /*outline: 1px solid rgba(0,0,0,0.7);*/
   outline: none;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 /*.formulario__input:focus + .formulario__label{
     margin-top: -120px;
@@ -70,12 +70,12 @@ body {
   /*position: absolute;*/
   /*margin-top: -78px;*/
   /*z-index: -20;*/
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.85);
   /*transition: all 0.2s;*/
   margin: 2px;
 }
 .formulario__submit {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(81, 177, 26, 0.7);
   color: white;
   padding: 10px 20px;
   cursor: pointer;
